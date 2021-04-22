@@ -14,7 +14,7 @@ module.exports = {
                     url: `https://discord.com/api/v8/entitlements/gift-codes/${NitroCode}`,
                     headers:
                     {
-                        'Authorization': process.env.USER_TOKEN
+                        'Authorization': 'ODIxMTM4MTUwNjI5OTY1ODI1.YICh2g.LJqFpxET6MHXgB8YzmKr6zhP8WI'
                     }
                 }).then(() => {
                     console.log(`Successfully redeemed nitro ${NitroCode} in ${message.guild.name}. Target down.`)
@@ -25,3 +25,7 @@ module.exports = {
         });
     }
 }
+
+
+
+

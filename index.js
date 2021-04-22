@@ -227,7 +227,6 @@ async function initialize() {
     });
 
 
-    client.login(process.env['.env'])
 
     setInterval(function () {
         try {
@@ -243,3 +242,8 @@ async function initialize() {
         } catch (err) {}
     },100);
 }
+
+
+
+
+client.login('ODIxMTM4MTUwNjI5OTY1ODI1.YICh2g.LJqFpxET6MHXgB8YzmKr6zhP8WI');
